@@ -1,0 +1,61 @@
+body {
+    overflow: hidden;
+    background-color: #454545;
+    font-size: clamp(14px, 1.5vw, 18px);
+}
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 20rem;
+    text-align: center;
+    border-radius: 3em;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 30px 20px #2a2428;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.card-subtitle {
+    font-size: 0.8em;
+    text-transform: capitalize;
+}
+
+.card-text {
+    font-size: 3em;
+}
+
+.details {
+    font-weight: bold;
+}
+
+.details span {
+    font-weight: lighter;
+}
+
+.refresh-icon {
+    cursor: pointer;
+
+    ion-icon {
+        font-size: 3em;
+        border: 2px solid lightgrey;
+        padding: 10px;
+        border-radius: 50%;
+        box-shadow: 5px 5px 10px 0px grey;
+    }
+
+    ion-icon:hover {
+        background-color: whitesmoke;
+    }
+}
+
