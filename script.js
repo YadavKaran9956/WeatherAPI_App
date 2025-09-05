@@ -1,4 +1,4 @@
-link1 = "http://api.openweathermap.org/geo/1.0/direct?q=Lucknow,IND&appid=0c3bc4088571169278663e77ba96b889";
+link1 = "https://api.openweathermap.org/geo/1.0/direct?q=Lucknow,IND&appid=0c3bc4088571169278663e77ba96b889";
 let request = new XMLHttpRequest();
 
 
